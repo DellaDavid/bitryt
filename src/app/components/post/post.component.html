@@ -1,0 +1,19 @@
+<div class="scroll-data">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Content</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of taskList | slice:0:10; let i=index">
+                <td>{{user.id}}</td>
+                <td>{{user.title}}</td>
+                <td>{{user.body}}</td>
+            </tr>
+        </tbody>
+        <p class="nodata" *ngIf="taskList.length == 0">No Data Found!</p>
+    </table>
+</div>

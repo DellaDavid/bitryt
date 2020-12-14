@@ -1,0 +1,109 @@
+.container-fluid {
+  border: 1px solid grey;
+}
+
+.active {
+  background: #b7b7b7;
+  color: #fff;
+}
+
+.scroll-data {
+  height: 535px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+ul {
+  margin: 0px !important;
+  padding: 5px 0px !important;
+}
+
+li {
+  list-style: none;
+  display: inline-block !important;
+  width: 20%;
+  -webkit-box-shadow: 1px 0px 4px grey;
+          box-shadow: 1px 0px 4px grey;
+}
+
+a:active {
+  background-color: grey;
+}
+
+.align-text {
+  text-align: right;
+}
+
+.nodata {
+  text-align: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+tr th,
+tr td {
+  text-align: center;
+  word-break: break-all;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr th:first-child,
+tr td:first-child {
+  width: 170px;
+}
+
+tr th:nth-child(2),
+tr td:nth-child(2) {
+  width: 200px;
+}
+
+tr th:nth-child(3),
+tr td:nth-child(3) {
+  width: 200px;
+}
+
+.data__content {
+  height: 82vh;
+}
+
+.data__menubar {
+  width: 20%;
+  display: inline-block;
+}
+
+.data__dynamic-content {
+  width: 75%;
+  display: inline-block;
+}
+
+.data__navlink {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none !important;
+  margin: 1px 0;
+}
+
+.data__footer {
+  -webkit-box-shadow: 1px 0px 4px grey;
+          box-shadow: 1px 0px 4px grey;
+  padding: 10px;
+}
+/*# sourceMappingURL=app.component.css.map */

@@ -1,0 +1,19 @@
+<div class="scroll-data">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of userList | slice:0:20; let i=index">
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.website}}</td>
+            </tr>
+        </tbody>
+        <p class="nodata" *ngIf="userList.length == 0">No Data Found!</p>
+    </table>
+</div>
